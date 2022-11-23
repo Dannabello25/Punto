@@ -9,7 +9,7 @@ class Punto:
 
         
     def calcular_distancia(self,otroPunto):
-        r=math.sqrt(math.pow((self.x-otroPunto.x),2)((self.y-otroPunto.y),2))
+        r=math.sqrt(math.pow((self.x-otroPunto.x),2)+math.pow((self.y-otroPunto.y),2))
         return r
 
     
