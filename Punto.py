@@ -3,12 +3,13 @@ import math
 class Punto:
 
     def __init__(self):
-        self.x=int
-        self.y=int
+        self.x=0
+        self.y=0
         
 
         
-    def calcular_distancia(self):
-        math.sqrt(math.pow(self.x-otroPunto.x,2)(self.y-otroPunto.y,2)
+    def calcular_distancia(self,otroPunto):
+        r=math.sqrt(math.pow((self.x-otroPunto.x),2)((self.y-otroPunto.y),2))
+        return r
 
-    def otroPunto(self):
+    
